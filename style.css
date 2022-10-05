@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.barraEsq {
+
+    height: 100%;
+    width: 200px;
+    /* position: fixed; */
+    color: #333;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    background-color: #fbfbfb;
+    overflow-x: visible;
+    padding: 20px;
+    float: left;
+}
+
+/* .barraEsq a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #bcbcbc;
+    /* display: block; */
+.expBarraEsq {
+    /* padding: 80px 0px 0px 0px; */
+     margin-top:130px;
+}
+.educacao{
+    margin-top:130px;
+}
+.main {
+    margin-left: 250px;
+}
+
+
+@media screen and (max-height: 450px) {
+    .barraEsq {
+        padding-top: 15px;
+    }
+
+    .barraEsq a {
+        font-size: 18px;
+    }
+}
+
+.cargo {
+    margin-left: 25px;
+    color: #939393;
+}
+
+.nome {
+    color: #939393;
+    margin-left: 25px;
+    /* margin-top: 40px; */
+}
+
+.sobrenome {
+    color: #F8BB10;
+    margin-left: 25px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+}
+
+.minhafoto {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.descricao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descricao>img {
+    height: 20px;
+}
+
+
+.social a i {
+    margin: 0px 20px 0px 0px;
+
+    color: #F8BB10;
+    font-size: 35px;
+}
+
+.container {
+    background-color: #fcfcfc;
+}
+
+.container i {
+    color: #F8BB10;
+}
+
+.location {
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+}
+
+.intro {
+    display: flex;
+    margin-top: 30px;
+}
+
+.intro2 {
+    margin-left: 300px;
+    height: 100%;
+    color: #333;
+    margin-top: 50px;
+}
+
+.experiencia1 {
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.experiencia1 i {
+    color: #F8BB10
+}
+
+.experiencia1_tempo {
+    opacity: 0.6;
+    margin-left: 10px;
+}
+
+.experiencia1_local {
+    opacity: 0.6;
+    margin-left: 10px;
+}
+
+.experiencia1_empresa {
+    font-weight: bold
+}
+
+.experiencia1_cargo {
+    margin-left: 10px;
+}
+
+.experiencia2 {
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.experiencia2 i {
+    color: #F8BB10
+}
+
+.experiencia2_tempo {
+    opacity: 0.6;
+    margin-left: 10px;
+}
+
+.experiencia2_local {
+    opacity: 0.6;
+    margin-left: 10px;
+}
+
+.experiencia2_empresa {
+    font-weight: bold
+}
+
+.experiencia2_cargo {
+    margin-left: 10px;
+}
+
+
+/* .expertise2{
+    color: #333;
+    display: table;
+} */
+.linha {
+    border-color: rgb(0, 0, 0);
+    opacity: 0.1;
+    margin-bottom: 20px;
+}
+
+.bodyMain {
+    border-top-width: 0px;
+}
+/* .headformacao{
+    border-top: 1px solid #fbfbfb;
+    border-bottom: 1px solid #fbfbfb;
+    background-color: #fdfdfd;
+} */
+.formacao1 {
+    margin-left: 300px;
+    margin-top: 1px;
+}
+
+.formacao1 i {
+    color: #F8BB10
+}
+
+.formacao1_tempo {
+    opacity: 0.6;
+    margin-left: 10px;
+}
+
+.formacao1_local {
+    opacity: 0.6;
+    margin-left: 10px;
+    margin-top: none;
+}
+
+.formacao1_curso {
+    font-weight: bold
+}
+
+.formacao1_instituicao {
+    margin-left: 10px;
+}
